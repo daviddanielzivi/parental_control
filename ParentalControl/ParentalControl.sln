@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParentalControl", "ParentalControl.vcxproj", "{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Debug|x64.ActiveCfg = Debug|x64
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Debug|x64.Build.0 = Debug|x64
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Debug|x86.Build.0 = Debug|Win32
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Release|x64.ActiveCfg = Release|x64
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Release|x64.Build.0 = Release|x64
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Release|x86.ActiveCfg = Release|Win32
+		{6BBE9F2B-830B-4FD3-BA5C-95E098D2279E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283E3374-4DF1-4333-A614-F9E8DB547D8C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+#example of policy file format
+#user_name start_time_hours start_time minutes end_time_hours end_time_minutes total_time
+dzivi 20:00 24:00 5
+drubbens 20:00 24:00 10
+avital 20:00 24:00 35
+arieh 20:00 24:00 33
+yair 20:00 24:00 32
+yonathan 20:00 24:00 30
+naomie 20:00 24:00 30

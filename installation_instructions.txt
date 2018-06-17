@@ -1,0 +1,32 @@
+PARENTAL CONTROL service and agent (x64):
+
+
+1) Sevice Installation
+   - install the service by running the following script: "install_service.bat"
+   - it will install a service called my_parental_control running process parental_control.exe (task manager)
+   - windows -> run -> services.msc you will see it 
+   - the script will install the service as persistent, so it will start automatically on boot
+   - if for some reason you don't want anymore this service running on your computer run the "uninstall_service.bat"
+   
+   
+2) policy.txt format example:
+   - dzivi 20:00 24:00 60 
+   - mean user called dzivi is allowed to access the computer from 20:00 to 24:00 for duration of maximum 60 minutes
+   - note: currently only the duration limitation is working 
+   - user that doesn't appair in the policy file will not be limited at all
+   
+3) User Loging history:
+   - is the folder where the service is running a file for every user will be generated, this file will contain all the logging history of the user
+   
+4) Agent installation:
+   - in order to run the parental control agent on every loging a "shortcut" of the "ParentalControlAgent.exe" need to be copy to the "Startup" directory which is for dzivi user under:
+     C:\Users\dzivi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+     
+     
+5) when running parental control agent a dll may miss in your system, this dll is called vcruntime.dll. To install it run the vc_redistx64.exe file 
+    
+   
+   
+   
+      
+
